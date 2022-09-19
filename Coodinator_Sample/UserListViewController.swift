@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol ListViewController: AnyObject {
+    func listViewControllerDidSelect(_ username: String)
+}
+
+class UserListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
