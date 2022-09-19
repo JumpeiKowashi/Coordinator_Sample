@@ -11,6 +11,7 @@ final class UserListCoordinator: Coordinator {
     
     private let navigator: UINavigationController
     private var userListViewController: UserListViewController?
+    private var userDetailCoordinator: UserDetailCoordinator?
     
     init(navigator: UINavigationController) {
         self.navigator = navigator
@@ -27,6 +28,8 @@ final class UserListCoordinator: Coordinator {
 
 extension UserListCoordinator: UserListViewControllerDelegate {
     func userListViewControllerDidSelect(_ username: String) {
-        print(username)
+        let userDetailCoordinator = UserDetailCoordinator(navigator: self.navigator, username: username)
+        userDetailCoordinator.start()
+        self.userDetailCoordinator = userDetailCoordinator
     }
 }
