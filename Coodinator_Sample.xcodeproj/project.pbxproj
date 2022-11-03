@@ -17,6 +17,12 @@
 		C3BF5E4128D83CBA00FCA1B8 /* UserListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4028D83CBA00FCA1B8 /* UserListCoordinator.swift */; };
 		C3BF5E4328D8572600FCA1B8 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4228D8572600FCA1B8 /* UserDetailViewController.swift */; };
 		C3BF5E4528D857D600FCA1B8 /* UserDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4428D857D600FCA1B8 /* UserDetailCoordinator.swift */; };
+		C3BF5E4728D886B400FCA1B8 /* AnimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4628D886B400FCA1B8 /* AnimeListViewController.swift */; };
+		C3BF5E4928D8877D00FCA1B8 /* AnimeListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4828D8877D00FCA1B8 /* AnimeListCoordinator.swift */; };
+		C3BF5E4B28D8882700FCA1B8 /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4A28D8882700FCA1B8 /* AnimeDetailViewController.swift */; };
+		C3BF5E4D28D8885E00FCA1B8 /* AnimeDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4C28D8885E00FCA1B8 /* AnimeDetailCoordinator.swift */; };
+		C3BF5E4F28D88A8C00FCA1B8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E4E28D88A8C00FCA1B8 /* MainTabBarController.swift */; };
+		C3BF5E5128D88BE400FCA1B8 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF5E5028D88BE400FCA1B8 /* MainTabBarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		C3BF5E4028D83CBA00FCA1B8 /* UserListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCoordinator.swift; sourceTree = "<group>"; };
 		C3BF5E4228D8572600FCA1B8 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		C3BF5E4428D857D600FCA1B8 /* UserDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailCoordinator.swift; sourceTree = "<group>"; };
+		C3BF5E4628D886B400FCA1B8 /* AnimeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewController.swift; sourceTree = "<group>"; };
+		C3BF5E4828D8877D00FCA1B8 /* AnimeListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListCoordinator.swift; sourceTree = "<group>"; };
+		C3BF5E4A28D8882700FCA1B8 /* AnimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewController.swift; sourceTree = "<group>"; };
+		C3BF5E4C28D8885E00FCA1B8 /* AnimeDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailCoordinator.swift; sourceTree = "<group>"; };
+		C3BF5E4E28D88A8C00FCA1B8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C3BF5E5028D88BE400FCA1B8 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,12 @@
 				C3BF5E3328D836B600FCA1B8 /* Assets.xcassets */,
 				C3BF5E3528D836B600FCA1B8 /* LaunchScreen.storyboard */,
 				C3BF5E3828D836B600FCA1B8 /* Info.plist */,
+				C3BF5E4628D886B400FCA1B8 /* AnimeListViewController.swift */,
+				C3BF5E4828D8877D00FCA1B8 /* AnimeListCoordinator.swift */,
+				C3BF5E4A28D8882700FCA1B8 /* AnimeDetailViewController.swift */,
+				C3BF5E4C28D8885E00FCA1B8 /* AnimeDetailCoordinator.swift */,
+				C3BF5E4E28D88A8C00FCA1B8 /* MainTabBarController.swift */,
+				C3BF5E5028D88BE400FCA1B8 /* MainTabBarCoordinator.swift */,
 			);
 			path = Coodinator_Sample;
 			sourceTree = "<group>";
@@ -151,11 +169,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BF5E3F28D836E800FCA1B8 /* AppCordinator.swift in Sources */,
+				C3BF5E4D28D8885E00FCA1B8 /* AnimeDetailCoordinator.swift in Sources */,
+				C3BF5E4F28D88A8C00FCA1B8 /* MainTabBarController.swift in Sources */,
 				C3BF5E4528D857D600FCA1B8 /* UserDetailCoordinator.swift in Sources */,
+				C3BF5E4B28D8882700FCA1B8 /* AnimeDetailViewController.swift in Sources */,
 				C3BF5E2F28D836B300FCA1B8 /* UserListViewController.swift in Sources */,
 				C3BF5E2B28D836B300FCA1B8 /* AppDelegate.swift in Sources */,
 				C3BF5E2D28D836B300FCA1B8 /* SceneDelegate.swift in Sources */,
+				C3BF5E4728D886B400FCA1B8 /* AnimeListViewController.swift in Sources */,
+				C3BF5E4928D8877D00FCA1B8 /* AnimeListCoordinator.swift in Sources */,
 				C3BF5E4328D8572600FCA1B8 /* UserDetailViewController.swift in Sources */,
+				C3BF5E5128D88BE400FCA1B8 /* MainTabBarCoordinator.swift in Sources */,
 				C3BF5E4128D83CBA00FCA1B8 /* UserListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
